@@ -1,0 +1,64 @@
+.Joke {
+  display: flex;
+  border-bottom: 2px solid #eee;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  padding: 1rem;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome, Edge, Opera and Firefox */
+}
+
+.joke-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  margin-right: 1rem;
+  /* background: red; */
+}
+
+.joke-text {
+  width: 85%;
+  font-size: 1rem;
+  opacity: 0.8;
+  text-align: left;
+}
+
+.joke-votes {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  border: 3px solid red;
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 300;
+  -webkit-box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.3);
+}
+
+.arrow {
+  font-size: 1.3em;
+  margin: 10px;
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.joke-smiley {
+  font-size: 1.8rem;
+  margin-left: auto;
+  border-radius: 50%;
+  /* -webkit-box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.2); */
+}
